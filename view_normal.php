@@ -60,15 +60,8 @@ $userCount = $result->num_rows;
                 <tr>
                     <th>ID</th>
                     <th>Username</th>
-                    <th>Age</th>
-                    <th>Address</th>
                     <th>Phone</th>
                     <th>Weight</th>
-                    <th>Gender</th>
-                    <th>Surgery</th>
-                    <th>Disease</th>
-                    <th>Hurt Part</th>
-                    <th>Gym Exp</th>
                     <th>Months</th>
                     <th>Start</th>
                     <th>End</th>
@@ -83,15 +76,8 @@ $userCount = $result->num_rows;
                         <tr>
                             <td><?php echo $counter++; ?></td> 
                             <td><?php echo htmlspecialchars($row['name']); ?></td>
-                            <td><?php echo htmlspecialchars($row['age']); ?></td>
-                            <td><?php echo htmlspecialchars($row['address']); ?></td>
                             <td><?php echo htmlspecialchars($row['phone']); ?></td>
                             <td><?php echo htmlspecialchars($row['weight']); ?> <?php echo htmlspecialchars($row['weight_unit']); ?></td>
-                            <td><?php echo htmlspecialchars($row['gender']); ?></td>
-                            <td><?php echo htmlspecialchars($row['yes_no_option']); ?></td>
-                            <td><?php echo htmlspecialchars($row['command']); ?></td>
-                            <td><?php echo htmlspecialchars($row['select_option1']); ?></td>
-                            <td><?php echo htmlspecialchars($row['select_option2']); ?></td>
                             <td><?php echo htmlspecialchars($row['select_option3']); ?></td>
                             <td><?php echo htmlspecialchars($row['start']); ?></td>
                             <td><?php echo htmlspecialchars($row['end']); ?></td>
